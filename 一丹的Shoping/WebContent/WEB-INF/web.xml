@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.servlet.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>jcaptcha</servlet-name>
+    <servlet-class>com.octo.captcha.module.servlet.image.SimpleImageCaptchaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShopAddServlet</servlet-name>
+    <servlet-class>com.servlet.ShopAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShopListServlet</servlet-name>
+    <servlet-class>com.servlet.ShopListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShopUpdateServlet</servlet-name>
+    <servlet-class>com.servlet.ShopUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShopDeleteServlet</servlet-name>
+    <servlet-class>com.servlet.ShopDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShopDeleteServlet2</servlet-name>
+    <servlet-class>com.servlet.ShopDeleteServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/Adlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopAddServlet</servlet-name>
+    <url-pattern>/ShopAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopListServlet</servlet-name>
+    <url-pattern>/ShopList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopUpdateServlet</servlet-name>
+    <url-pattern>/ShopUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopDeleteServlet</servlet-name>
+    <url-pattern>/ShopDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopDeleteServlet2</servlet-name>
+    <url-pattern>/ShopDelete2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jcaptcha</servlet-name>
+    <url-pattern>/jcaptcha.jpg</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ShopUpdate1</display-name>
+    <servlet-name>ShopUpdate1</servlet-name>
+    <servlet-class>com.servlet.ShopUpdate1Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShopUpdate1</servlet-name>
+    <url-pattern>/ShopUpdate1</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>UserAdd</display-name>
+    <servlet-name>UserAdd</servlet-name>
+    <servlet-class>com.servlet.UserAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserAdd</servlet-name>
+    <url-pattern>/UserAdd</url-pattern>
+  </servlet-mapping>
+</web-app>

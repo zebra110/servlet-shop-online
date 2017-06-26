@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//WebContent/admin_userAdd.jsp=UTF-8
+encoding//WebContent/admin_userList.jsp=UTF-8
+encoding//WebContent/administer_shopList.jsp=UTF-8
+encoding//src/com/servlet=UTF-8
+encoding//src/com/servlet/AddOrderServlet.java=UTF-8
+encoding//src/com/servlet/DeleteOneShop.java=ISO-8859-1
+encoding//src/com/servlet/OrderList.java=UTF-8
+encoding//src/com/servlet/ShopAddServlet.java=UTF-8
+encoding//src/com/servlet/UserLogin.java=UTF-8
+encoding//src/com/servlet/UserRegister.java=UTF-8
+encoding/<project>=ISO-8859-1
